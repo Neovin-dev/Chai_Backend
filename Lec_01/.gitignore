@@ -1,0 +1,13 @@
+
+# this tells the git to ignore the node modules. 
+# Create a file called .gitignore in the root of your project (if it doesn't already exist) and add the following line.
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore this file itself (dont do this)
+# .gitignore
+
+# Ignore environment files
+.env
+
