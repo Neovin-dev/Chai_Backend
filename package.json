@@ -1,0 +1,21 @@
+{
+  "name": "chai_backend",
+  "version": "1.0.0",
+  "description": "backend project where we build a play videos web solution",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+    
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "author": "Naveen Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
