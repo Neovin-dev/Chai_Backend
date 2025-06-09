@@ -22,3 +22,5 @@ to configure the gitignore we will use .gitignore generator which will create a 
 "type": "module", we will use module in package.json
 
 to solve the server start and solve problem we will use `--watch` but here we use what is used in production that is `nodemon` this is a development dependency. 
+
+another extention we will use is prettier we also use its vscode code extension but will use this in production so everyone has same syntactical way of doing thing and each project have its way it is also a dev dependency. we have to add a few files manually to get more out of pretierrc
