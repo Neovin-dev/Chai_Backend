@@ -25,4 +25,13 @@ to configure the gitignore we will use .gitignore generator which will create a 
 
 to solve the server start and solve problem we will use `--watch` but here we use what is used in production that is `nodemon` this is a development dependency. 
 
-another extention we will use is prettier we also use its vscode code extension but will use this in production so everyone has same syntactical way of doing thing and each project have its way it is also a dev dependency. we have to add a few files manually to get more out of pretierrc
+we have mutiple folders in the src folder
+* DB - databases
+* Modals - schema of the different modals
+* Controller - functionality
+* Routes - routing 
+* Middleware - checking or anykind of middle operations between server and apis and there are different types. 
+* Utils - utilities like file uploading, mailing, token in and out. 
+* More(depends)
+
+another extention we will use is prettier we also use its vscode code extension but will use this in production so everyone has same syntactical way of doing thing and each project have its way it is also a dev dependency. we have to add a few files manually to get more out of `pretierrc` we will also use `pretierignore` to ignore file where we need to avoid this formating and this also has a generator like `gitignore`.
