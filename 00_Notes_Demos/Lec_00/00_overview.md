@@ -6,7 +6,7 @@
 -> NodeJS has little to do with Backend as a whole and whatever there is will be covered here. it has its own use case (JS runtime).
 -> for ease of work we will use one framework (Express) for programming language and a ORM/ODM (Mongoose) for a Database.
 
-![illustrated](image.png)
+![illustrated](images/image.png)
 
 ### Javascript Based Backend
 as we are working in JS based backend so we will be using two tools/ frameworks primarily. those are Express and Mongoose. 
@@ -41,5 +41,5 @@ File Structure
 -- Utils
 -- More(depends)
 
-![ill_2](image-1.png)
+![ill_2](images/image-1.png)
 
