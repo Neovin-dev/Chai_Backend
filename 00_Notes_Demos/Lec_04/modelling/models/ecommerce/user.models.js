@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
     username: {
+        // order of fields doesnt matter as object not string
         type: String,
         required: true,
         unique: true,

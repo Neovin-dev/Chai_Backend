@@ -40,3 +40,5 @@ const orderSchema = new mongoose.Schema({
 }, {timestamps: true})
 
 export const Order = mongoose.model('Order', orderSchema)
+
+// learn these types and categories or prototype as per requirement.

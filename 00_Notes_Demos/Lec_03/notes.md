@@ -25,3 +25,12 @@ We have so called helpers (i.e Prisma and Mongoose) to help us do these kind of 
 
 - We can use certain tools to have enviornment predone like `Stackblitz`
 - we use a nomenclature for writing file names `user.models.js` this is still a core JS file. 
+
+
+****************************
+What I learned from Lec 3 and 4 of modelling 
+* basically in modelling there are three line of required code always import, schema and export.
+* In this as per requirement read about the types and constraints/fields/data points you put in schema
+* you can also declare subschema or you can just declare it outside as a different schema and import it
+* ObjectId is also an important way to connect and import multiple models cross files.
+****************************
