@@ -1,6 +1,7 @@
 # Data modelling for backend with mongoose
+Note: the Taking backend to next level was just a introductory video to the mega project so no notes. 
 
-> TIT_BIT>> WHen asked to write an Authentication freshers will start writing controllers as compared to an experienced person who will first think of all the things like what is the scope what data will be there how to this and that
+* `TIT_BIT` -- **When asked to write an Authentication freshers will start writing controllers as compared to an experienced person who will first think of all the things like what is the scope what data will be there how to this and that**
 
 What data need to be stored where it is stored is not the primary requirement. Basically `modelling` like how many fields and what those field contains. 
 
