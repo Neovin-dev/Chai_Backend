@@ -7,11 +7,15 @@ from here on out we will be writing production grade code to build some actual b
 
 [Model Link (erasor.io)](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj))
 
-> We are doing things here a certain way but there can be other work flows to do data modelling and stuff. 
+* Its all about how we take the data and process it and send or fetch in backend. 
+
+* We are doing things here a certain way (like models and logic etc) but there can be other work flows to do data modelling and stuff it depends on padagogy as well as scope. 
+
+* Here things will not be done from very basic they will picked from inbetween till advance. 
 
 initially we will focus on the users
 
-> we will make the files of the project in the main section/ outside lec as this is a very large project which will span multiple lectures and keepping it lecture wise can ruin the structure of the project. 
+* we will make the files of the project in the main section/ outside lec as this is a very large project which will span multiple lectures and keepping it lecture wise can ruin the structure of the project. 
 
 * Git doesnt track empty folders so we use `.gitkeep` to track it. 
 we will first focus on the struture of the file.
@@ -21,16 +25,16 @@ to configure the gitignore we will use .gitignore generator which will create a 
 
 * another handy thing to learn is git commands like mkdir and things like that so you dont have to do the repetative work of creating files again and again and proper use of package.json and scripting related to it as well as good understanding of production level version control. 
 
-"type": "module", we will use module in package.json instead of commonJS (iguess look it up)
+"type": "module", we will use module in package.json instead of commonJS (I guess look it up)
 
 to solve the server start and solve problem we will use `--watch` but here we use what is used in production that is `nodemon` this is a development dependency. 
 
-we have mutiple folders in the src folder
+we have mutiple folders in the `src` folder
 * DB - databases
 * Modals - schema of the different modals
 * Controller - functionality
 * Routes - routing 
-* Middleware - checking or anykind of middle operations between server and apis and there are different types. 
+* Middleware - checking or any kind of middle operations between server and apis and there are different types. 
 * Utils - utilities like file uploading, mailing, token in and out. 
 * More(depends)
 

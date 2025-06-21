@@ -1,4 +1,6 @@
 # Ecommerce and Hospital management Data modelling
 
-reviste these concepts and models afterward. 
+revist these concepts and models afterward. 
+
+This video is just practice over the already known concept of modeling.
 

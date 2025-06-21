@@ -4,21 +4,35 @@
 import dotenv from "dotenv"; // this is the best practice of it
 
 import connectDB from "./db/index.js";
+import { app } from "./app.js";
 
 dotenv.config({ // still not updated in the document but we can use this as a experimental feature by mentioning it in the package.json 
     // "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
     path: "./config.env"
 })
+ 
+
+connectDB()
+.then(() => {
+    app.listen(process.env.PORT || 8000, () => {
+        console.log(`Listening on port ${process.env.PORT || 8000}`);
+    })
+}) // this will connect to the database and then start the server. we can also use async await here but it is not necessary as we are using .then and .catch to handle the promise.
+.catch((err) => {
+    console.log("MongoDB connection failed !!!", err);
+     
+    // this will exit the process with a failure code
+}) // this is the function that will connect to the database and it is imported from the db folder. this will return a promise so we can use async await or then catch to handle the promise. so we can use .then or .catch to handle the promise.
+// we can also use the connectDB function in the index.js file of the db folder and then export it from there.
 
 
 
 
 
+// either we can use try cath or we can use .then() and .catch() to handle the errors.
 
 
-
-
-
+// this practice of having try catch or .then() and .catch() in the index.js file is not recommended as it decreases the consistency of the file. what we do is we try a function in util file which can apply this error handling on all the functions that we want to use in the index.js file. so we can use that function in the index.js file and it will handle the error for us. this is a good practice as it keeps the code clean and consistent.
 
 
 
