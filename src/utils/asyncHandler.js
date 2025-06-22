@@ -1,6 +1,13 @@
 // const asyncHandler = (fn) => (req, res, next) => {}
 
+const asyncHandler = (requestHandler) => {
+    return async (req, res, next) => {
+        Promise.resolve(requestHandler(req, res, next)).
+        catch((err) => next(err))
+    }
+}   
 
+    // we generally write the code in such a way that whatever we get wheather it be response or error is in in a standard format. for taht we use `nodejs api error` where nodejs give us a whole class of error read documentation
 
 export {asyncHandler}
 
@@ -18,7 +25,7 @@ export {asyncHandler}
 //     }catch (error) {
 //         res.status(error.code || 500).json({
 //             success: false,
-//             message: error.message || "Internal Server Error",
+//             message: error.message
 //         });
 //     }
 
