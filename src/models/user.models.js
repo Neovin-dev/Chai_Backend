@@ -5,7 +5,7 @@ import bcrypt from "bcrypt"
 // import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 
 
-const userSchema = new Schema({
+const userSchema = new Schema(
     {
         username: {
             type: String,
@@ -52,7 +52,7 @@ const userSchema = new Schema({
     },
     {
         timestamps: true
-    }
+    },
 )
 
 userSchema.pre("save", async function(next) {

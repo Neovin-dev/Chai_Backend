@@ -21,4 +21,6 @@ class ApiError extends Error {
     }
 }
 
+export {ApiError}
+
 // this is used to standardise the errors using nodejs and express
