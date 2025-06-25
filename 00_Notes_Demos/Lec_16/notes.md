@@ -61,3 +61,13 @@ Access tokens and refresh tokens are essential components of **authentication an
 we will use these and write a login user 
 we will use the middleware in logout to make it more save and compreshesable 
 so we will be writin out own custom middleware. this will verify if there is a user or not. 
+
+__Note lost my connection after postman video as mongoDB was not working properly but understood the concepts after it. After doing mongoDB aggregate pipeline the course is let to do it yourself all routes and controller need to be written according to the todo in the git repo so it is in form of assignment but I have got enough understanding about it to make choics and build projects so thats good. 
+
+ There is no frontend I though It would be a fullstack project but it was only backend 
+
+ so learn each technology and logics sperately and also learn how they interact with each other. make 2-3 project while using the minimal number of framework or libraries otherwise you will build dependency on them. 
+
+ write more JS as to get familiar with it and other things you will learn as you go. 
+
+ Learn GIT, Practice DSA, 3 decent projects learn Core CS thats enough 
